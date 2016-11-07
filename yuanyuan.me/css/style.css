@@ -1404,8 +1404,16 @@ ul.info-list li strong {
 	margin-bottom: 50px;
     font-weight: 700;
 }
-
-
+.profile-img{
+    width:50%;
+    margin:0 auto;
+}
+h4 .work-place{
+    font-weight: normal;
+}
+.exp ul{
+    list-style: circle;
+}
 /* -------------------------
         9. RESPONSIVE
 ------------------------- */ 
@@ -1833,5 +1841,16 @@ ul.info-list li strong {
 	
 	.project {
 		width: 100%;
+    }
+}
+@media (max-width:1050px) and (min-width:768px){
+    .name-block-container.reverse h1{
+        font-size: 32px;
+    }
+    .name-block-container.reverse h2{
+        font-size:20px;
+    }
+    .name-block-container.reverse{
+        padding: 0 10px;
     }
 }
